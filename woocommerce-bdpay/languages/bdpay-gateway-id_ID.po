@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BDPay Payment Gateway 1.0.0\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "BDPay"
+msgstr "BDPay"
+
+msgid "Terima pembayaran via Virtual Account, QRIS, dan e-Wallet (DANA, OVO) menggunakan BDPay Open API."
+msgstr "Terima pembayaran via Virtual Account, QRIS, dan e-Wallet (DANA, OVO) menggunakan BDPay Open API."
+
+msgid "Enable/Disable"
+msgstr "Aktifkan/Nonaktifkan"
+
+msgid "Aktifkan BDPay Payment Gateway"
+msgstr "Aktifkan BDPay Payment Gateway"
+
+msgid "Title"
+msgstr "Judul"
+
+msgid "Judul yang muncul di halaman checkout."
+msgstr "Judul yang muncul di halaman checkout."
+
+msgid "Description"
+msgstr "Deskripsi"
+
+msgid "Deskripsi metode pembayaran."
+msgstr "Deskripsi metode pembayaran."
+
+msgid "Environment"
+msgstr "Lingkungan"
+
+msgid "Pilih mode Sandbox atau Production."
+msgstr "Pilih mode Sandbox atau Production."
+
+msgid "Merchant Code"
+msgstr "Kode Merchant"
+
+msgid "Secret Key"
+msgstr "Secret Key / Private Key"
+
+msgid "Public Key"
+msgstr "Public Key Platform"
+
+msgid "Metode Pembayaran Aktif"
+msgstr "Metode Pembayaran Aktif"
+
+msgid "Pilih Metode Pembayaran"
+msgstr "Pilih Metode Pembayaran"
+
+msgid "Silakan pilih metode pembayaran BDPay."
+msgstr "Silakan pilih metode pembayaran BDPay."
+
+msgid "Menunggu pembayaran BDPay."
+msgstr "Menunggu pembayaran BDPay."
+
+msgid "Instruksi Pembayaran BDPay"
+msgstr "Instruksi Pembayaran BDPay"
+
+msgid "Pembayaran BDPay berhasil. Ref: "
+msgstr "Pembayaran BDPay berhasil. Ref: "
+
+msgid "Pembayaran BDPay gagal/expired."
+msgstr "Pembayaran BDPay gagal/expired."

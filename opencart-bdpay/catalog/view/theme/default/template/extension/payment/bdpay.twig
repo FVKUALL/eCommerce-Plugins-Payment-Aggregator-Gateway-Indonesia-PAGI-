@@ -1,0 +1,40 @@
+<div class="bdpay-methods">
+  <p>Pilih metode pembayaran:</p>
+  {% for method in methods %}
+  <div class="radio">
+    <label>
+      <input type="radio" name="bdpay_method" value="{{ method.code }}" {% if loop.first %}checked{% endif %} />
+      {{ method.label }}
+    </label>
+  </div>
+  {% endfor %}
+</div>
+<div class="buttons">
+  <div class="pull-right">
+    <input type="button" value="{{ button_confirm }}" id="button-confirm" class="btn btn-primary" data-loading-text="{{ text_loading }}" />
+  </div>
+</div>
+<script type="text/javascript">
+$('#button-confirm').on('click', function() {
+  $.ajax({
+    url: 'index.php?route=extension/payment/bdpay/confirm',
+    type: 'post',
+    data: { bdpay_method: $('input[name=bdpay_method]:checked').val() },
+    dataType: 'json',
+    beforeSend: function() {
+      $('#button-confirm').button('loading');
+    },
+    complete: function() {
+      $('#button-confirm').button('reset');
+    },
+    success: function(json) {
+      if (json['error']) {
+        alert(json['error']);
+      }
+      if (json['redirect']) {
+        location = json['redirect'];
+      }
+    }
+  });
+});
+</script>

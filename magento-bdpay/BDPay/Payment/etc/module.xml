@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Payment Aggregator & Gateway Indonesia (PAGI)
+ * @author    Wiriasto
+ * @copyright 2026 Wiriasto
+ * @license   GPL-2.0-or-later
+ * @version   1.0
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="BDPay_Payment" setup_version="1.0.0">
+        <sequence>
+            <module name="Magento_Sales"/>
+            <module name="Magento_Payment"/>
+            <module name="Magento_Checkout"/>
+        </sequence>
+    </module>
+</config>
