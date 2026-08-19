@@ -54,7 +54,7 @@ Sebelum memasang plugin, Anda **wajib** memiliki akun merchant BDPay.
 
 > **Catatan:** Proses onboarding BDPay biasanya melibatkan kontak langsung dengan tim bisnis/teknis mereka (bukan self-service penuh seperti beberapa gateway lain). Simpan email CS / WA yang diberikan.
 
-> **Pembaruan:** Proses onboarding BDPay melalui self-service penuh gunakan alamat: dev-admin.bdpay.co.id
+**Pembaruan:** Proses onboarding BDPay melalui self-service penuh gunakan alamat: **https://dev-admin.bdpay.co.id**
 
 **Perusahaan:** PT Berkah Digital Pembayaran  
 **Alamat:** Gedung Royal Square Lt. 3A, Jl. Raya Menganti No.479, Surabaya, Jawa Timur 60227  
